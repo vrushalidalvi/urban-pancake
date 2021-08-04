@@ -1,0 +1,106 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "1a472e18",
+   "metadata": {},
+   "source": [
+    "# Student Portfolio"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f80de826",
+   "metadata": {},
+   "source": [
+    "Student details:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0d21b28d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter your name: Vrushali Dalvi\n",
+      "Enter your standard: 12th\n",
+      "Enter your division: A\n",
+      "Enter your Roll no.: 106\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = str(input(\"Enter your name: \"))\n",
+    "std = input(\"Enter your standard: \")\n",
+    "div = str(input(\"Enter your division: \"))\n",
+    "rollno = int(input(\"Enter your Roll no.: \"))\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a33d5c7",
+   "metadata": {},
+   "source": [
+    "Percentage calculation"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "3cd105dc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter Maths(out of 100): 89\n",
+      "Enter Science(out of 100): 80\n",
+      "Enter English(out of 100): 70\n",
+      "You have secured 79.66666666666666%\n"
+     ]
+    }
+   ],
+   "source": [
+    "sub1 = int(input(\"Enter Maths(out of 100): \"))\n",
+    "sub2 = int(input(\"Enter Science(out of 100): \"))\n",
+    "sub3 = int(input(\"Enter English(out of 100): \"))\n",
+    "percentcal = ((sub1 + sub2 + sub3)/300.0)*100\n",
+    "print(\"You have secured \" + str(percentcal) + \"%\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "649106c9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
